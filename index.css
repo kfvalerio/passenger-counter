@@ -1,21 +1,17 @@
 body {
     background-image: url("https://images.pexels.com/photos/2225274/pexels-photo-2225274.jpeg?cs=srgb&dl=pexels-rodrigo-santos-2225274.jpg&fm=jpg");
     background-size: cover;
+    color: darkseagreen;
     font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
-    text-align: center;
     height: 100vh;
-    padding: 40px;
+    text-align: center;
     display: flex;
-    justify-content: center;
+    flex-flow: column;
+    justify-content: space-around;
     align-items: center;
-    color: darkseagreen;
 }
 
-
-#header {
-    font-size: 40x;
-}
 
 h1 {
     margin-top: 10px;

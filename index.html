@@ -3,13 +3,17 @@
         <link rel="stylesheet" href="index.css">
         <title>Passenger Counter</title>
     </head>
-    <body>  
-         <h1 id="header">People entered:</h1>
-         <h2 id="count-el">0</h2>
-         <button id="increment-btn" onclick="increment()">INCREMENT</button>
-         <button id="save-btn" onclick="save()">SAVE</button>
-         <p id="save-el">Previous entries: </p>
-         <script src="index.js">
-         </script>
+    <body>
+        <div class="container">
+            <h1>People entered:</h1>
+            <h2 id="count-el">0</h2>
+            <div class="buttons">
+                <button id="increment-btn" onclick="increment()">INCREMENT</button>
+                <button id="save-btn" onclick="save()">SAVE</button>
+            </div>
+            <p id="save-el">Previous entries: </p>
+        </div>
+        <script src="index.js">
+        </script>
     </body>
 </html>
