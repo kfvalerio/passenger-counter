@@ -1,0 +1,49 @@
+body {
+    background-image: url("https://images.pexels.com/photos/2225274/pexels-photo-2225274.jpeg?cs=srgb&dl=pexels-rodrigo-santos-2225274.jpg&fm=jpg");
+    background-size: cover;
+    font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkseagreen;
+}
+
+
+#header {
+    font-size: 40x;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: darkolivegreen;
+}
+
+#save-btn {
+    background: darkseagreen;
+}
+
